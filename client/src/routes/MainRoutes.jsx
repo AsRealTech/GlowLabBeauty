@@ -15,7 +15,6 @@ const Home = lazy(() => import('../views/public/Home'));
 const Login = lazy(() => import('../views/auth/login'));
 const Register = lazy(() => import('../views/auth/register'));
 
-const Sample = lazy(() => import('../views/sample'));
 
 const MainRoutes = {
   path: '/',
