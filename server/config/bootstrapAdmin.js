@@ -9,9 +9,9 @@ import { title } from "process";
 configDotenv();
 
 export async function bootstrapAdmin() {
-    // if(process.env.NODE_ENV !== "production") return;
+    if(process.env.NODE_ENV !== "production") return;
 
-    // if(process.env.ADMIN_BOOTSTRAP_ENABLED !== true) return;
+    if(process.env.ADMIN_BOOTSTRAP_ENABLED !== true) return;
 
     const email = process.env.ADMIN_EMAIL;
     const password = process.env.ADMIN_PASSWORD;
