@@ -66,7 +66,7 @@ const Nav = styled.nav`
 const Logo = styled.a`
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #d4a574;
     text-decoration: none;
 `;
 

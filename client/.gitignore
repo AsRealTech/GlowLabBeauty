@@ -38,3 +38,5 @@ yarn-error.log*
 /src/views/ui-elements/icons/Feather.jsx
 /src/views/ui-elements/icons/Material.jsx
 /src/views/sample
+
+client/src/data
