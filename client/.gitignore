@@ -40,4 +40,5 @@ yarn-error.log*
 /src/views/ui-elements/icons/Material.jsx
 /src/views/sample
 
-/client/src/data
+/src/data
+/src/views/ui-elements/icons/data
