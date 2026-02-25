@@ -1,4 +1,5 @@
 // Menu configuration for default layout
+
 const menuItems = {
   items: [
     {
