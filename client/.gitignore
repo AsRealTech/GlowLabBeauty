@@ -42,3 +42,4 @@ yarn-error.log*
 
 /src/data
 /src/views/ui-elements/icons/data
+client/src/data
