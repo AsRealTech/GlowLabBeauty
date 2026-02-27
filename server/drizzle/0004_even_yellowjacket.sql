@@ -1,2 +1,10 @@
-ALTER TABLE "ingredients" ALTER COLUMN "benefits" SET DATA TYPE text[];--> statement-breakpoint
-ALTER TABLE "ingredients" ALTER COLUMN "benefits" SET DEFAULT '{}';
+ALTER TABLE "ingredients"
+ALTER COLUMN "benefits"
+SET DATA TYPE text[]
+USING ARRAY[benefits];
+
+--> statement-breakpoint
+
+ALTER TABLE "ingredients"
+ALTER COLUMN "benefits"
+SET DEFAULT '{}';
