@@ -8,6 +8,7 @@ import { Home } from '../views/public/Home';
 
 // render - landing page
 const DashboardSales = lazy(() => import('../views/dashboard/DashSales/index'));
+const Login = lazy(() => import('../views/auth/login'));
 
 // ==============================|| ROUTING RENDER ||============================== //
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter(
         {
           index: true,
           element: <Home />
+        }, 
+        {
+         path: '/login',
+         element: <Login />
         }
       ]
     },
