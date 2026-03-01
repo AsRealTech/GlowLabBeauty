@@ -9,7 +9,7 @@ import App from './App';
 
 // style + assets
 import './index.scss';
-
+ 
 // -----------------------|| REACT DOM RENDER  ||-----------------------//
 
 const container = document.getElementById('root');
