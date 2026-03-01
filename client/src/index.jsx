@@ -1,7 +1,7 @@
 // third party
 import { createRoot } from 'react-dom/client';
 import { ConfigProvider } from './contexts/ConfigContext';
-import "./assets/css/styles.css";
+import "assets/css/styles.css";
 
 // project imports
 import App from './App';
